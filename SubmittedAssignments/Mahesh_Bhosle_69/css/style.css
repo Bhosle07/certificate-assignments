@@ -204,7 +204,7 @@
     max-width: 100%;
   }
 
-  .certificate-wrapper .certificate-content .cert-logo {
+  .certificate-wrapper .certificate-content .certificate-logo {
     left: 92mm;
     /* height: 20mm; */
     position: absolute;
@@ -212,7 +212,7 @@
     text-align: center;
   }
 
-  .certificate-wrapper .certificate-content .cert-logo img {
+  .certificate-wrapper .certificate-content .certificate-logo img {
     width: auto;
     max-height: 24mm;
     max-width: 100%;
@@ -246,15 +246,11 @@
     font-family: "sub";
   }
 
-  .certificate-wrapper .certificate-content .namesection {
-    position: relative;
-    top: 44mm;
-  }
+ 
 
   .certificate-wrapper .certificate-content .candidate-name {
-    position: absolute;
     left: 0mm;
-    top: 11mm;
+    top: 49mm;
     right: 0mm;
     font-family: cname;
     font-size: 36pt;
@@ -262,6 +258,7 @@
     text-align: center;
     margin: auto;
     position: absolute;
+
   }
 
   .certificate-wrapper .certificate-content .line-below-name {
@@ -288,12 +285,12 @@
   }
 
   .certificate-wrapper .certificate-content .certificate-logo {
-    position: absolute;
     left: auto;
-    top: 20mm;
-    right: 15mm;
+    top: 14mm;
+    right: 175mm;
     position: absolute;
     z-index: 1;
+}
   }
 
   .certificate-wrapper .certificate-content .certificate-logo img {
@@ -378,4 +375,4 @@
     margin-bottom: 0mm;
     margin-top: 0mm;
   }
-}
+
